@@ -13,7 +13,7 @@ Enquanto isso, compartilho aqui o processo passo a passo e a explicação da est
 ## Objetivos
 - Patricar os comandos SQL mostrados durante o super módulo
 - simular uma situação real de um sistema de estacionamento
-- Praticar comandos SQL como ´CREATE, INSERT, SELECT, UPDATE e DELETE`
+- Praticar comandos SQL como ```CREATE, INSERT, SELECT, UPDATE e DELETE```
 
 ---
 
