@@ -1,4 +1,4 @@
-# BANCO DE DADOS - Estacionamento
+# 🚗 Sistema de Banco de Dados para Estacionamento
 
 Este projeto simula, de forma simples, o sistema de banco de dados de um estacionamento. Criei este projeto como uma forma de revisar os conceitos aprendidos durante o Super Módulo de Banco de Dados da Infinity School.
 
@@ -6,16 +6,20 @@ Este projeto simula, de forma simples, o sistema de banco de dados de um estacio
 
 Enquanto isso, compartilho aqui o processo passo a passo e a explicação da estrutura do banco de dados.
 
-
-
 ---
 
-## Objetivos
+## 💡 Objetivos
 - Patricar os comandos SQL mostrados durante o super módulo
 - simular uma situação real de um sistema de estacionamento
 - Praticar comandos SQL como ```CREATE, INSERT, SELECT, UPDATE e DELETE```
 
 ---
+## 🛠️ Tecnologias Utilizadas
+-MySQL Workbench
+-SQL Puro
+
+---
+
 
 ## Estrutura do Banco de Dados
 
@@ -143,4 +147,8 @@ WHERE situacao = 'Disponível';
 
 ## Considerações finais
 
-Bom o projeto foi esse, de fato simples para fixar conhecimento mas um ótimo exercício para isso, como dito antes irei melhorar ele em breve. Foi um otimo super modulo forma 24 horas totais de aulas que foram otimas para desenvolver mais uma habilidade na programação.
+Este foi um projeto simples, mas extremamente valioso para fixar os conhecimentos adquiridos. Apesar da simplicidade, foi um ótimo exercício prático que me ajudou a consolidar conceitos importantes de banco de dados.
+
+Como mencionei antes, pretendo evoluir essa ideia em breve, conectando o sistema a um back-end e front-end para torná-lo mais completo.
+
+O Super Módulo de Banco de Dados foi uma experiência muito positiva — foram 24 horas de aula intensas e bem aproveitadas, que fortaleceram ainda mais minhas habilidades em programação.
