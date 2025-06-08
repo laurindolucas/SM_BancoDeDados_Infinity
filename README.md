@@ -1,14 +1,19 @@
 # BANCO DE DADOS - Estacionamento
 
-Este projeto simula de forma simples o sistema de um banco de dados de um estacionamentom, fiz esse projeto para relembrar conceitos e coisas que aprendi durante
-o super módulo de banco de dados da Infinity School, é um projeto simples que em breve quero criar mais coisas como conexões a um back-end e front-end deixando mais 
-completo e robusto, enquanto isso fiquem com o processo de passo a passo e explicação desse banco de dados.
+Este projeto simula, de forma simples, o sistema de banco de dados de um estacionamento. Criei este projeto como uma forma de revisar os conceitos aprendidos durante o Super Módulo de Banco de Dados da Infinity School.
+
+É um projeto inicial e didático, mas que pretendo expandir futuramente, conectando-o a um back-end e front-end para torná-lo mais completo e robusto.
+
+Enquanto isso, compartilho aqui o processo passo a passo e a explicação da estrutura do banco de dados.
+
+
 
 ---
 
 ## Objetivos
 - Patricar os comandos SQL mostrados durante o super módulo
-- simular uma situação real de um estacionamento
+- simular uma situação real de um sistema de estacionamento
+- Praticar comandos SQL como ´CREATE, INSERT, SELECT, UPDATE e DELETE`
 
 ---
 
@@ -136,3 +141,6 @@ WHERE situacao = 'Disponível';
 
 ---
 
+## Considerações finais
+
+Bom o projeto foi esse, de fato simples para fixar conhecimento mas um ótimo exercício para isso, como dito antes irei melhorar ele em breve. Foi um otimo super modulo forma 24 horas totais de aulas que foram otimas para desenvolver mais uma habilidade na programação.
