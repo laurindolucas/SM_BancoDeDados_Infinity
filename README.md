@@ -51,7 +51,7 @@ FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente)
 ### Inserção de Dados
 
 ```sql
-NSERT INTO vagas (numero_vaga, tipoVaga, situacao) VALUES
+INSERT INTO vagas (numero_vaga, tipoVaga, situacao) VALUES
 (101, 'Carro', 'Disponível'),
 (102, 'Carro', 'Ocupada'),
 (103, 'Moto', 'Disponível'),
@@ -88,3 +88,51 @@ INSERT INTO reserva (placa_veiculo, tipo_veiculo, numero_vaga, id_cliente) VALUE
 ('JKL0J12', 'Moto', 110, 10);
 
 ```
+### Consultas com INNER JOIN
+
+```sql
+--Mostra a placa, tipo de veículo e o número da vaga onde está estacionado
+SELECT 
+    cliente.nome_cliente,
+    cliente.cpf,
+    reserva.placa_veiculo,
+    reserva.tipo_veiculo
+FROM cliente
+INNER JOIN reserva ON cliente.id_cliente = reserva.id_cliente;
+
+-- Mostra todos os clientes e seus respectivos veículos reservados
+SELECT 
+    cliente.nome_cliente,
+    cliente.cpf,
+    reserva.placa_veiculo,
+    reserva.tipo_veiculo
+FROM cliente
+INNER JOIN reserva ON cliente.id_cliente = reserva.id_cliente;
+
+```
+### Updates e Deletes
+
+```sql
+--Atuliza a situação de uma vaga para "Ocupada"
+
+UPDATE vagas
+SET situacao = 'Ocupada'
+WHERE numero_vaga = 5;
+
+-- Atualiza o telefone de um cliente pelon seu id
+UPDATE cliente
+SET telefone = '88888-8888'
+WHERE id_cliente = 3;
+
+-- Deleta um cliente pelo seu id
+DELETE FROM cliente
+WHERE id_cliente = 7;
+
+-- Deleta todas as vagas que estão "Disponível"
+DELETE FROM vagas
+WHERE situacao = 'Disponível';
+
+```
+
+---
+
