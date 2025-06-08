@@ -33,7 +33,7 @@ USE estacionamento;
 
 Abaixo está o diagrama ilustrando a estrutura do banco:
 
-![Diagrama ER](![sistemaestacionamentoimagem](https://github.com/user-attachments/assets/0a1f4a91-0459-4b92-ae14-e63c02b0de70))
+![Diagrama ER](![sistemaestacionamentoimagem](https://github.com/user-attachments/assets/0a1f4a91-0459-4b92-ae14-e63c02b0de70)
 
 ### Criação das tabelas 
 
