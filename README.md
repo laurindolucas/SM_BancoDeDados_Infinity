@@ -15,8 +15,8 @@ Enquanto isso, compartilho aqui o processo passo a passo e a explicação da est
 
 ---
 ## 🛠️ Tecnologias Utilizadas
--MySQL Workbench
--SQL Puro
+- MySQL Workbench
+- SQL Puro
 
 ---
 
