@@ -28,6 +28,13 @@ Enquanto isso, compartilho aqui o processo passo a passo e a explicação da est
 CREATE DATABASE estacionamento;
 USE estacionamento; 
 ```
+
+## 🧩 Diagrama do Banco de Dados
+
+Abaixo está o diagrama ilustrando a estrutura do banco:
+
+![Diagrama ER](imagens/diagrama.png)
+
 ### Criação das tabelas 
 
 ```sql
