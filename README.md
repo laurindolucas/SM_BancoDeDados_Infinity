@@ -19,7 +19,11 @@ Enquanto isso, compartilho aqui o processo passo a passo e a explicação da est
 - SQL Puro
 
 ---
+## 🧩 Diagrama do Banco de Dados
 
+Abaixo está o diagrama ilustrando a estrutura do banco:
+
+![Diagrama ER](![sistemaestacionamentoimagem](https://github.com/user-attachments/assets/0a1f4a91-0459-4b92-ae14-e63c02b0de70)
 
 ## Estrutura do Banco de Dados
 
@@ -28,13 +32,6 @@ Enquanto isso, compartilho aqui o processo passo a passo e a explicação da est
 CREATE DATABASE estacionamento;
 USE estacionamento; 
 ```
-
-## 🧩 Diagrama do Banco de Dados
-
-Abaixo está o diagrama ilustrando a estrutura do banco:
-
-![Diagrama ER](![sistemaestacionamentoimagem](https://github.com/user-attachments/assets/0a1f4a91-0459-4b92-ae14-e63c02b0de70)
-
 ### Criação das tabelas 
 
 ```sql
